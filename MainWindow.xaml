@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:weightCalculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="698.2">
     <Grid>
-        
+        <Button x:Name="btnAllClear" Content="清除" HorizontalAlignment="Left" VerticalAlignment="Top" Width="155" Margin="75,30,0,0" Height="50" FontSize="16" KeyUp="btnAllClear_KeyUp"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="75,170,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="155" FontSize="16"/>
+        <Label Content="磅" HorizontalAlignment="Left" Margin="495,224,0,0" VerticalAlignment="Top" Height="35" Width="155" FontSize="16"/>
+        <Label Content="盎司 " HorizontalAlignment="Left" Margin="295,224,0,0" VerticalAlignment="Top" Height="35" Width="155" FontSize="16" RenderTransformOrigin="0.483,-0.709"/>
+        <Label Content="公噸" HorizontalAlignment="Left" Margin="75,224,0,0" VerticalAlignment="Top" Height="35" Width="155" FontSize="16"/>
+        <Label Content="公斤" HorizontalAlignment="Left" Margin="495,115,0,0" VerticalAlignment="Top" Height="35" Width="155" FontSize="16"/>
+        <Label Content="公克&#xD;&#xA;" HorizontalAlignment="Left" Margin="295,115,0,0" VerticalAlignment="Top" Height="35" Width="155" FontSize="16"/>
+        <TextBox x:Name="txtMg" HorizontalAlignment="Left" Height="30" Margin="75,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" FontSize="16" KeyUp="txtMg_KeyUp"/>
+        <TextBox x:Name="txtIb" HorizontalAlignment="Left" Height="30" Margin="495,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" FontSize="16" KeyUp="txtIb_KeyUp"/>
+        <TextBox x:Name="txtOz" HorizontalAlignment="Left" Height="30" Margin="295,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" FontSize="16" KeyUp="txtOz_KeyUp"/>
+        <TextBox x:Name="txtt" HorizontalAlignment="Left" Height="30" Margin="75,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" FontSize="16" KeyUp="txtt_KeyUp"/>
+        <TextBox x:Name="txtKg" HorizontalAlignment="Left" Height="30" Margin="495,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" FontSize="16" KeyUp="txtKg_KeyUp"/>
+        <TextBox x:Name="txtg" HorizontalAlignment="Left" Height="30" Margin="295,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" FontSize="16" KeyUp="txtg_KeyUp"/>
+        <Label Content="毫克" HorizontalAlignment="Left" Margin="75,115,0,0" VerticalAlignment="Top" Height="35" Width="155" FontSize="16"/>
+        <Label Content="說明文字" HorizontalAlignment="Left" Margin="75,340,0,0" VerticalAlignment="Top" Height="35" Width="155" FontSize="16"/>
+        <TextBox x:Name="txtInfo" HorizontalAlignment="Left" Height="30" Margin="160,345,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="410" FontSize="16"/>
+
     </Grid>
 </Window>
